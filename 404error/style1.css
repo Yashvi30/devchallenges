@@ -1,0 +1,43 @@
+*,
+::after,
+::before {
+  margin: 0px;
+}
+body {
+  height: 100%;
+  width: 100%;
+}
+.container {
+  display: flex;
+  max-height: 200%;
+  width: 100%;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+  font-family: "Space mono";
+  margin: 3em;
+}
+h3 {
+  font-size: 50%;
+  font-weight: 700;
+  width: 50%;
+  color: #333;
+}
+p {
+  width: 340px;
+  color: #4f4f4f;
+}
+header {
+  font-family: "Inconsolata";
+  font-weight: 380;
+  color: #333;
+}
+img {
+  /* position: absolute; */
+  /* left: 5.35%;
+    right: 57.21%;
+    top: 24.54%;
+    bottom: 34.03%; */
+  width: 480px;
+  height: 420px;
+}
