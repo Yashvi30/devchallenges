@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Menu</title>
+  </head>
+  <body>
+    <style>
+      @media only screen and (max-width: 700px) {
+        body {
+          background-color: #181719;
+          margin: 0px;
+          padding: 0px;
+        }
+        ul {
+          margin: 0px;
+          height: 100vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-decoration: none;
+          list-style: none;
+          align-items: center;
+          padding: 0px;
+        }
+        li a {
+          font-family: "Montserrat", sans-serif;
+          background: none;
+          color: white;
+          font-weight: 500;
+          font-style: normal;
+          line-height: 22px;
+          font-size: 18px;
+          text-decoration: none;
+          display: inline-block;
+          margin-top: 20px;
+        }
+        .Home {
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 21.94px;
+          padding: 0px 0px 8px 0px;
+          border-bottom: 1px solid white;
+        }
+        .cross {
+          width: 30px;
+          height: 35px;
+          position: absolute;
+          right: 10px;
+          top: 10px;
+        }
+      }
+    </style>
+
+    <!-- html part -->
+    <ul>
+      <li><a href="#" class="Home">Home</a></li>
+      <li><a href="#">Collection</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <a href="index.html"><img src="cross.png" alt="" class="cross" /></a>
+    </ul>
+  </body>
+</html>
